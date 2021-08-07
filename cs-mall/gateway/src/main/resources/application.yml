@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gateway
+  profiles:
+    active: dev
+  mvc:
+    static-path-pattern: /image/**
+
+server:
+  port: 8080
